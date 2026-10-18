@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reports | Platform admin</title>
+<link href="styles/bootstrap.min.css" rel="stylesheet">
+<link href="styles/adminst.css" rel="stylesheet">
+<link rel="stylesheet" href="{{ asset('css/custom.css') }}"></head>
+<body><div class="d-md-flex">
+<aside class="sidebar p-3"><div class="text-white fw-semibold fs-5 mb-3">Platform admin</div>
+<nav class="nav flex-md-column gap-1"><a class="nav-link" href="admin2.html">Restaurants</a><a class="nav-link active" href="admin1.html">Users & disputes</a><a class="nav-link" href="admin3.html">Fees & settings</a><a class="nav-link" href="admin4.html">Reports</a><a class="nav-link" href="admin5.html">Menu moderation</a></nav></aside>
+<main class="main flex-grow-1 p-3 p-md-4"><h1 class="h3 mb-4">Reports</h1>
+<div class="row g-3 mb-4"><div class="col-6 col-lg-3"><div class="card card-body"><div class="text-muted small">Orders</div><div class="fs-4 fw-semibold">1,284</div></div></div><div class="col-6 col-lg-3"><div class="card card-body"><div class="text-muted small">Gross sales</div><div class="fs-4 fw-semibold">$31,940</div></div></div><div class="col-6 col-lg-3"><div class="card card-body"><div class="text-muted small">Commission earned</div><div class="fs-4 fw-semibold">$3,194</div></div></div><div class="col-6 col-lg-3"><div class="card card-body"><div class="text-muted small">Reservations</div><div class="fs-4 fw-semibold">412</div></div></div></div>
+<div class="row g-3"><div class="col-lg-6"><div class="card card-body"><h2 class="h6 mb-3">Sales share by restaurant</h2><div class="mb-2"><div class="d-flex justify-content-between small"><span>Lagos Grill House</span><span>82%</span></div><div class="progress"><div class="progress-bar bg-success" style="width:82%"></div></div></div><div class="mb-2"><div class="d-flex justify-content-between small"><span>Sakura Table</span><span>64%</span></div><div class="progress"><div class="progress-bar bg-success" style="width:64%"></div></div></div><div class="mb-2"><div class="d-flex justify-content-between small"><span>Mama Rosa's Kitchen</span><span>47%</span></div><div class="progress"><div class="progress-bar bg-success" style="width:47%"></div></div></div><div class="mb-2"><div class="d-flex justify-content-between small"><span>Green Bowl</span><span>31%</span></div><div class="progress"><div class="progress-bar bg-success" style="width:31%"></div></div></div></div></div>
+<div class="col-lg-6"><div class="card card-body"><h2 class="h6 mb-3">Export</h2><select class="form-select mb-2"><option>Last 7 days</option><option>Last 30 days</option><option>This year</option></select><button class="btn btn-accent">Download CSV</button></div></div></div>
+</main></div>
+<script src="styles/bootstrap.bundle.min.js"></script></body></html>

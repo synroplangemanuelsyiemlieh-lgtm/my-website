@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Restaurants | Platform admin</title>
+<link href="styles/bootstrap.min.css" rel="stylesheet">
+<link href="styles/adminst.css" rel="stylesheet">
+<link rel="stylesheet" href="{{ asset('css/custom.css') }}"></head>
+<body><div class="d-md-flex">
+<aside class="sidebar p-3"><div class="text-white fw-semibold fs-5 mb-3">Platform admin</div>
+<nav class="nav flex-md-column gap-1"><a class="nav-link" href="admin2.html">Restaurants</a><a class="nav-link active" href="admin1.html">Users & disputes</a><a class="nav-link" href="admin3.html">Fees & settings</a><a class="nav-link" href="admin4.html">Reports</a><a class="nav-link" href="admin5.html">Menu moderation</a></nav></aside>
+<main class="main flex-grow-1 p-3 p-md-4"><h1 class="h3 mb-4">Restaurants</h1>
+<div class="d-flex flex-wrap gap-2 mb-3"><input class="form-control w-auto" placeholder="Search restaurants"><select class="form-select w-auto"><option>All statuses</option><option>Pending</option><option>Approved</option><option>Suspended</option></select></div>
+<div class="card"><div class="table-responsive"><table class="table align-middle mb-0"><thead><tr><th>Restaurant</th><th>Owner</th><th>Status</th><th></th></tr></thead><tbody><tr><td>Mama Rosa's Kitchen</td><td>Rosa Bianchi</td><td><span class="badge text-bg-warning">Pending</span></td><td class="text-end"><button class="btn btn-sm btn-accent">Approve</button> <button class="btn btn-sm btn-outline-secondary">Suspend</button> <button class="btn btn-sm btn-outline-danger">Remove</button></td></tr><tr><td>Lagos Grill House</td><td>Tunde Adeyemi</td><td><span class="badge text-bg-success">Approved</span></td><td class="text-end"><button class="btn btn-sm btn-accent">Approve</button> <button class="btn btn-sm btn-outline-secondary">Suspend</button> <button class="btn btn-sm btn-outline-danger">Remove</button></td></tr><tr><td>Sakura Table</td><td>Kenji Mori</td><td><span class="badge text-bg-success">Approved</span></td><td class="text-end"><button class="btn btn-sm btn-accent">Approve</button> <button class="btn btn-sm btn-outline-secondary">Suspend</button> <button class="btn btn-sm btn-outline-danger">Remove</button></td></tr><tr><td>Green Bowl</td><td>Ana Lopes</td><td><span class="badge text-bg-secondary">Suspended</span></td><td class="text-end"><button class="btn btn-sm btn-accent">Approve</button> <button class="btn btn-sm btn-outline-secondary">Suspend</button> <button class="btn btn-sm btn-outline-danger">Remove</button></td></tr></tbody></table></div></div>
+</main></div>
+<script src="styles/bootstrap.bundle.min.js"></script></body></html>
